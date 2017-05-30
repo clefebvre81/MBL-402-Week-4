@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/label_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_first" />
+
+    <EditText
+        android:id="@+id/edit_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_first">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_last" />
+
+    <EditText
+        android:id="@+id/edit_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_last">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_make" />
+
+    <EditText
+        android:id="@+id/edit_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_make">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_model" />
+
+    <EditText
+        android:id="@+id/edit_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_model">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_cost" />
+
+    <EditText
+        android:id="@+id/edit_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_cost"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/add_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/txt_add" />
+
+</LinearLayout>

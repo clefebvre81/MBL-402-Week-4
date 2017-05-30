@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Week4AppLT6720</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">About</string>
+    <string name="main_page_title">CAR LOT CUSTOMER DATABASE</string>
+    <string name="app_info">App Info</string>
+    <string name="placeholder_id">ID</string>
+    <string name="placeholder_first">First</string>
+    <string name="placeholder_last">last</string>
+    <string name="placeholder_make">make</string>
+    <string name="placeholder_model">model</string>
+    <string name="placeholder_cost">Cost</string>
+    <string name="txt_add">Add Customer</string>
+    <string name="title_activity_add_customer">AddCustomer</string>
+    <string name="title_activity_view_customer">ViewCustomer</string>
+    <string name="empty_list_text">No Customers Found</string>
+    <string name="main_menu_desc">Add Customers by clicking Add. To make additional Changes, click the Customer\'s Name</string>
+    <string name="program_credits">Created by Larissa D Thompson for MBL/402</string>
+    <string name="label_first">First Name:</string>
+    <string name="hint_first">Enter First Name</string>
+    <string name="label_last">Last Name:</string>
+    <string name="hint_last">Enter Last Name</string>
+    <string name="label_make">Car Make:</string>
+    <string name="hint_make">Enter Car Make</string>
+    <string name="label_model">Car Model:</string>
+    <string name="hint_model">Enter Car Model</string>
+    <string name="label_cost">Car Cost:</string>
+    <string name="hint_cost">Enter Car Cost</string>
+</resources>
